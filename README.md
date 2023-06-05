@@ -12,7 +12,7 @@
 
 - Used Netlify to deploy the web-app.
 
-- _Deployed URL_: <...>
+- _Deployed URL_: <https://b00945188-t3.netlify.app>
 
 ## Built With
 
