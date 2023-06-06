@@ -14,29 +14,19 @@ const Profile = () => {
   };
 
   return (
-    <div>
+    <>
       <Typography variant="h3">Profile</Typography>
-      {profile ? (
-        <>
-          <div>
-            <Typography variant="body1">
-              First Name: {profile.firstName}
-            </Typography>
-            <Typography variant="body1">
-              Last Name: {profile.lastName}
-            </Typography>
-            <Typography variant="body1">Email: {profile.email}</Typography>
-          </div>
-          <div className="back">
-            <Button variant="contained" type="submit" onClick={handleSubmit}>
-              Back
-            </Button>
-          </div>
-        </>
-      ) : (
-        <Typography variant="body1">No profile data available</Typography>
-      )}
-    </div>
+      <div>
+        <Typography variant="body1">First Name: {profile.firstName}</Typography>
+        <Typography variant="body1">Last Name: {profile.lastName}</Typography>
+        <Typography variant="body1">Email: {profile.email}</Typography>
+      </div>
+      <div className="back">
+        <Button variant="contained" type="submit" onClick={handleSubmit}>
+          Back
+        </Button>
+      </div>
+    </>
   );
 };
 

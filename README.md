@@ -1,8 +1,8 @@
 # Tutorial 3
 
 - _Date Created_: 1 June 2023
-- _Last Modification Date_: 5 June 2023
-- _Git URL_: <...>
+- _Last Modification Date_: 6 June 2023
+- _Git URL_: <https://git.cs.dal.ca/kcpanchal/csci-5709-tutorials/-/tree/main/Tutorial3>
 
 ## Authors
 
@@ -17,4 +17,5 @@
 ## Built With
 
 - [React](https://create-react-app.dev) - The web framework used
-- [MaterialUI](https://mui.com/) - The web framework used
+- [MaterialUI](https://mui.com/) - A UI library for React that follows Material Design guidelines
+- [react-router-dom](https://reactrouter.com/en/main) - A routing library for React applications
