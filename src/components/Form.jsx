@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextField, Button } from "@mui/material";
+import { TextField, Button, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 const Form = () => {
@@ -151,6 +151,7 @@ const Form = () => {
 
   return (
     <>
+      <Typography variant="h3">Registration Form</Typography>
       <div className="first-name">
         <TextField
           error={!!error.firstName}
